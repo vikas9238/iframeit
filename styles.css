@@ -15,6 +15,9 @@
     display: flex;
     align-items: center;
 }
+.reverse-flex{
+  flex-direction: row-reverse;
+}
 
 .nav img{
     width: 100px;
@@ -82,7 +85,7 @@
     padding-top: 40px;
   }
   .hero-section1{
-    width: 48%;
+    width: 50%;
   }
   .hero-section1 h1{
     font-size: 3rem;
@@ -94,7 +97,7 @@
     padding-block: 3rem;
   }
   .hero-section2{
-    width: 48%;
+    width: 50%;
   }
   
   .hero-section2 img{
