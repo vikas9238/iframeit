@@ -3,25 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
-  --white: #ffffff;
+  --white: #ff0000;
   --light-grey: #edf0f1;
   --violet: #655be1;
   --dark-violet: #5146e1;
   --black: #21232a;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 ul {
   list-style: none;
-}
-
-
-
-body {
-  text-align: center;
-  padding: 0 20px;
-  background: var(--light-grey);
-  color: var(--white);
 }
 
 .notification {
@@ -34,18 +30,22 @@ body {
 
 /* MAIN STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 .nav {
   position: relative;
   display: flex;
   justify-content: center;
-  max-width: 400px;
-  padding-bottom: 20px;
+  max-width: 100%;
+  padding-bottom: 57px;
   border-radius: 5px 5px 25px 25px;
   margin: 300px auto 0;
   background: var(--white);
   box-shadow: rgb(50 50 93 / 10%) 0 30px 60px -12px,
     rgb(0 0 0 / 15%) 0 18px 36px -18px;
-    display: none;
 }
 
 .nav [type="checkbox"] {
@@ -153,3 +153,4 @@ body {
   opacity: 1;
   transition-delay: 0.9s;
 }
+
