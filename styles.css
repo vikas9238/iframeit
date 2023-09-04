@@ -106,6 +106,12 @@
   .hero-section1{
     width: 50%;
     padding-bottom: 20px;
+    /* background-color: rgba(1, 60, 253, 0.178);
+    border-radius: 50% 50% 50% 50% / 0% 100% 0% 100%  ; */
+  }
+  .remove-element{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: none ;
   }
   .hero-section1 h1{
     font-size: 3rem;
@@ -129,3 +135,17 @@
   .section-gap{
     padding-left: 86px;
   }
+  /* new section */
+.content-float-row1 img{
+  margin:6px;
+  width: 40%;
+  background-color: rgba(1, 60, 253, 0.178);
+}
+.image-decor2{  
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.image-decor1{  
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
