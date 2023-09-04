@@ -120,7 +120,7 @@
     font-size: .9rem;
     font-weight: bold;
     line-height: 1.5rem;
-    padding-block: 3rem;
+    padding-block: 2rem;
   }
   .hero-section2{
     width: 50%;
@@ -135,7 +135,9 @@
   .section-gap{
     padding-left: 86px;
   }
+
   /* new section */
+
 .content-float-row1 img{
   margin:6px;
   width: 40%;
@@ -148,4 +150,15 @@
 .image-decor1{  
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+.social-img{
+  display: flex;
+}
+.social-img img{
+  width: 13%;
+  height: fit-content;
+}
+.social-img p{
+  line-height: 0;
+  padding-bottom: -20px;
 }

@@ -74,5 +74,9 @@
   .section-gap{
     padding-left: 0px;
   }
+  /* hero section ka 3rd sec img back ground remove */
+  .content-float-row1 img{
+    background-color: rgba(255, 255, 255, 0);
+  }
   
   }
