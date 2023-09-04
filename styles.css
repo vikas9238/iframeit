@@ -43,6 +43,8 @@
   }
   
   a {
+    font-size: .9rem;
+    font-weight: bold;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.757);
     transition: all .3s ease-in-out;
@@ -59,7 +61,7 @@
   }
   
   .list li {
-    margin-left: 60px;
+    margin-left: 50px;
     justify-content: right;
   }
   .primary-btn{
