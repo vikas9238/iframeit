@@ -170,14 +170,16 @@ color:rgb(105, 53, 202);
 .chooseus-container-card{
   text-align: center;
   width: 23%;
-  background-color: rgb(240, 253, 1);
+  background-color: rgb(255, 255, 255);
   padding: 20px;
+  margin-bottom: 10px;
   min-height: 350px;
   border-radius: 10px;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.264);
+  transition: all .2s ease-in-out;
 }
-.card-design{
-  
-  background-color: rgb(105, 53, 202);
+.chooseus-container-card:hover{
+  scale: 1.01;
 }
 .para{
   font-weight: bold;
