@@ -151,14 +151,39 @@
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-.social-img{
-  display: flex;
+/* why choose us section */
+.choose-us{
+  text-align: center;
+  padding-block: 4rem;
 }
-.social-img img{
-  width: 13%;
-  height: fit-content;
+.choose-us-details h4{
+color:rgb(105, 53, 202);
+  font-weight: bold;
 }
-.social-img p{
-  line-height: 0;
-  padding-bottom: -20px;
+.choose-us-details h1{
+  padding-block: 2rem;    
+}
+.chooseus-container{
+  width: 100%;
+  justify-content: space-between;
+}
+.chooseus-container-card{
+  text-align: center;
+  width: 23%;
+  background-color: rgb(240, 253, 1);
+  padding: 20px;
+  min-height: 350px;
+  border-radius: 10px;
+}
+.card-design{
+  
+  background-color: rgb(105, 53, 202);
+}
+.para{
+  font-weight: bold;
+  padding-block: 1rem;
+}
+.para2{
+  font-size: .8rem;
+  line-height: 1.2rem;
 }
