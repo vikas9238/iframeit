@@ -9,7 +9,7 @@
     margin-inline: auto;
     padding-inline: 20px;
     overflow: hidden;
-    max-width: 80%;
+    max-width: 1180px;
 }
 .flex{
     display: flex;
@@ -68,24 +68,46 @@
   }
   .primary-btn{
     background-color: rgb(1, 60, 253);
-    padding: 15px 20px;
+    padding: 10px 15px;
     font-weight: bold;
     color: white;
     border: 1px solid  rgb(1, 60, 253);
     border-radius: 8px;
-    font-weight: -.8rem;
+  }
+  .button-align{
+    margin-left: 35px;
+    margin-top: -8px;
   }
   .primary-btn:hover{
     color: white;
   }
 
+  /* Burgur */
+  .hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000000;
+}
+
 
   /* Hero section  */
-  .hero-section{
-    padding-top: 40px;
+  .hero-section-row1{
+    padding-top: 70px;
+  }
+  .hero-section-row2{
+    padding-top: 70px;
   }
   .hero-section1{
     width: 50%;
+    padding-bottom: 20px;
   }
   .hero-section1 h1{
     font-size: 3rem;
@@ -101,5 +123,11 @@
   }
   
   .hero-section2 img{
-    width: 550px;    
+    width: 450px;    
+  }
+  .content-float img{
+    float: right;
+  }
+  .section-gap{
+    padding-left: 86px;
   }
