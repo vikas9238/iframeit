@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/7222562f05.js" crossorigin="anonymous"></script>
-        <title>Contact Us | iFrameit</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="responsive.css">
-        <link rel="stylesheet" href="https://unpkg.com/transition-style">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7222562f05.js" crossorigin="anonymous"></script>
+    <title>Contact Us | iFrameit</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/transition-style">
+</head>
+
 <body>
     <!-- Navigation Bar Section -->
     <nav class="nav">
@@ -22,7 +24,8 @@
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
 
-            <a href="" class="primary-btn button-align" style="font-size: .8rem;"><i class="fa-solid fa-calendar-week"> </i> &nbsp;&nbsp; BOOK FOR MEETING</a>
+            <a href="" class="primary-btn button-align" style="font-size: .8rem;"><i class="fa-solid fa-calendar-week">
+                </i> &nbsp;&nbsp; BOOK FOR MEETING</a>
         </ul>
 
         <!-- burgur -->
@@ -32,6 +35,113 @@
             <span class="bar"></span>
             <span class="bar"></span>
         </div>
-    </nav> 
+    </nav>
+
+    
+    <!-- Contact Section ......STARTED...... -->
+
+    <section class="contactus-section">
+
+        <div class="contactus-section-details container">
+            <h2>CONTACT US</h2>
+            <p><a href="index.html" class="contact-home"><b>Home</b></a> / Contact us</p>
+        </div>
+
+    </section>
+
+    <!-- Information Section -->
+
+    <section class="info-section">
+
+        <div class="info-details container flex">
+
+            <div class="info-detail-sec">
+
+                <i class="fa-solid fa-location-dot"></i>
+                <h4>Adress :</h4>
+                <p>RPS More, Bailey Road, Patna(Bihar),801503</p>
+
+            </div>
+
+            <div class="info-detail-sec">
+
+                <i class="fa-solid fa-phone"></i>
+                <h4>PHONE NO</h4>
+                <p><a href="tel:7372886157" style="color: black;">+91 7372886157</a> <br>
+                    <a href="tel:6207338266" style="color: black;">+91 6207338266</a><br>
+                </p>
+
+            </div>
+
+            <div class="info-detail-sec">
+                <i class="fa-solid fa-message"></i>
+                <h4>EMAIL</h4>
+                <p><a href="mailto:support@iframeit.in"
+                        style="color: black;">support@iframeit.in</a></p>
+
+            </div>
+
+            <div class="info-detail-sec">
+
+                <i class="fa-solid fa-globe"></i>
+                <h4>WEBSITE</h4>
+                <p><a href="http://www.iframeit.in">www.iframeit.in</a></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Us Form .....STARTED..... -->
+
+    <div class="contact-info-row-02  ">
+
+        <div class="gaping-form container flex">
+
+            <div class="contact-info-row-02-info">
+
+                <h4 class="contact-info-row-02-info-h4">Contact Us</h4>
+                <p class="contact-info-row-02-info-p">Please Enter Your Query</p>
+
+                <form onsubmit="sendEmail(); reset(); return false;">
+
+                    <div class="from-float-type">
+                        <P class="form-p ">FULL NAME</P>
+                        <input type="text" placeholder="Name*" class="input-form" id="name" required>
+                    </div>
+
+                    <div class="from-float-type-margin">
+                        <p class="form-p">EMAIL ADDRESS</p>
+                        <input type="email" placeholder="Email*" class="input-form" id="email" required>
+                    </div>
+
+                    <p class="form-p">SUBJECT</p>
+                    <input type="text" placeholder="Subject*" class="input-decor input-form" id="subject" required>
+
+                    <P class="form-p">MESSAGE</P>
+                    <input type="text" placeholder="Message*" class="input-form" id="message" required>
+
+                    <div class="center-btn flex">
+                        <button type="submit" class="primary-btn">Send Message</button>
+                    </div>
+                </form>
+
+
+
+            </div>
+
+            <div class="contact-info-row-02-img">
+                <img src="image/bloom-customer-care.png" alt="contact" width="500px" height="420px"
+                    style="box-shadow: 0px 0px 5px 8px rgba(0, 0, 0, 0.264); margin-block: 10px;">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Contact Us Form .....ENDED..... -->
+
+    <script src="script.js"></script>
 </body>
+
 </html>
