@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Lexend Deca,sans-serif
+    font-family: Lexend Deca,sans-serif;
 }
 
 .container{
@@ -98,8 +98,11 @@
 
   /* Hero section  */
   .hero-section-row1{
-    margin-top: 90px;
-    background-image: linear-gradient(45deg, rgba(25, 136, 247, 0) 1%, rgba(206, 151, 177, 0.253) 100%);
+    margin-top: 90px;/* 
+    background-image: linear-gradient(45deg, rgba(188, 192, 121, 0.299) 1%, rgba(206, 151, 177, 0.253) 100%); */
+    padding-block: 50px;
+    
+    background-image: url(image/main-desktop-bg_sw0kld.svg);
   }
   .hero-section-row2{
     padding-top: 70px;
@@ -109,8 +112,6 @@
     padding-bottom: 20px;
     /* background-color: rgba(1, 60, 253, 0.178);
     border-radius: 50% 50% 50% 50% / 0% 100% 0% 100%  ; */
-       
-    
   }
   
   .remove-element{
@@ -127,14 +128,12 @@
     padding-block: 2rem;
   }
   .hero-section2{
-    width: 50%;  /*      
-    background-image: linear-gradient(45deg, rgba(25, 136, 247, 0) 1%, rgba(227, 176, 201, 0.69) 100%); */ 
+    width: 50%;
   }
   
   
   .hero-section2 img{
-    width: 530px;   
-    /* background-image: linear-gradient(45deg, rgba(25, 136, 247, 0) 1%, rgba(227, 176, 201, 0.69) 100%);  */
+    width: 530px;  
   }
   .content-float img{
     float: right;
