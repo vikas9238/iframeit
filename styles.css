@@ -9,6 +9,26 @@
   --blue: rgb(1, 60, 253);
 }
 
+/* loader */
+
+#preloader{
+  background:#ffffff  url(image/Vanilla-1s-285px.gif) no-repeat center;
+  background-size: 35%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/* scrollbar */
+body::-webkit-scrollbar{
+  background-color: #0000004e;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: var(--blue);
+  border-radius: 20px;
+}
+
 /* tap to scroll */
 
 #myBtn {

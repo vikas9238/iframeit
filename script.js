@@ -30,6 +30,12 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+/* loader */
+var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+        
 // contact FormData
 function sendEmail() {
   Email.send({
