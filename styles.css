@@ -110,14 +110,15 @@
     animation-name: circle-in-bottom-left;
     transition-delay: 2.5s;
     transition-timing-function: ease-in; */
+    background-color: rgba(133, 133, 173, 0.437);
 
   }
-  .hero-section-row2:hover{
+/*   .hero-section-row2:hover{
   
     animation-name: circle-in-bottom-left;
     transition-delay: 2.5s;
     transition-timing-function: ease-in;
-    }
+    } */
 
 
   @keyframes circle-in-bottom-left {
