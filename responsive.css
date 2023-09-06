@@ -78,5 +78,54 @@
   .content-float-row1 img{
     background-color: rgba(255, 255, 255, 0);
   }
+
+
+
+
+
+
+
+
+
+
+
+
+   /* contact us respo */
+
+   .contactus-section{
+
+    padding-block: 2rem;
+}
+
+.contactus-section-details h2{
+    font-size: 1.3rem;
+}
+.contactus-section-details p{
+    padding-top: 0rem;
+    font-size: 0.8rem;
+}
+
+.info-details{
+    flex-direction: column;
+    text-align: center;
+}
+.info-detail-sec{
+    width: 100%
+}
+.contact-info-row-02-img{
+    display: none;
+}
+.contact-info-row-02-info{
+    width: 100%;
+}
+.contact-info-row-02-info-h4{
+    text-align: center;
+}
+.contact-info-row-02-info-p{
+    text-align: center;
+}
+.center-btn{
+    justify-content: center;
+}
   
   }

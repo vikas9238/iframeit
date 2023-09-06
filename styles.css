@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Lexend Deca,sans-serif;
 }
+:root{
+  --blue:rgb(1, 60, 253);
+}
 /* body{
   
   background-image: url(image/LOGO6.png);
@@ -198,4 +201,138 @@ color:rgb(105, 53, 202);
 .para2{
   font-size: .8rem;
   line-height: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Section CSS ..... Started.... */
+.contactus-section{
+  background: linear-gradient(rgb(0, 0, 0, .8), rgb(0, 0, 0, .4)), url(image/become-a-vol.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-block: 7rem;
+}
+.contactus-section-details{
+  text-align: center;
+}
+.contactus-section-details h2 {
+  color: var(--blue);    
+}
+.contactus-section-details p{
+  padding-top: 1.3rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.contact-home:hover{
+  color: var(--blue);
+}
+.center-btn{
+  margin-top: 20px;
+}
+
+/* Information Details */
+
+.info-section{
+  text-align: center;
+  padding-block: 40px;
+} 
+.info-details{
+  justify-content: space-between;
+}
+
+.info-detail-sec{
+  width: 23%;
+  padding: 15px;
+}
+.info-detail-sec p a{
+  color: black;
+}
+.info-detail-sec i{
+  color: var(--blue);
+  font-size: 3rem;
+  padding-bottom: .8rem;
+}
+.info-detail-sec h4{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.info-detail-sec p{
+  font-size: .8rem;
+  padding-block: 1rem;
+}
+
+/* contact form */
+
+
+.contact-info-row-02{
+  padding-block: 40px;
+  background-image: url(image/backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-info-row-02-info{
+  width: 50%;
+}
+.contact-info-row-02-info-h4{
+  font-size: 2rem;
+  padding-block: 2rem;
+  color: var(--blue);
+}
+.contact-info-row-02-info-p{
+  text-align: left;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: rgba(0, 0, 0, 0.418);
+  
+}
+.gaping-form{
+  gap: 3.2rem;
+}
+.form-p{
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--blue);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.input-form {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 0.6rem;
+  border: 0; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+  width: 100%; 
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.366);
+}
+form{
+  padding-bottom: 2rem;
+}
+.contact-info-row-02-img{
+  width: 40%;
+}
+.contact-info-row-02-img img{
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: -5px 2px 4px 8px #42252c6d;
 }
