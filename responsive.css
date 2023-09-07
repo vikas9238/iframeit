@@ -101,6 +101,13 @@
   .content-float-row1 img {
     width: 44%;
   }
+  /* technologies we work with section */
+  .tech-img{
+    flex-direction: row;
+  }
+  .tech-img-div{
+    width: 50%;
+  }
    /* contact us respo */
   .box{
     width: 100%;
@@ -169,8 +176,6 @@
       width: 100%;
     }
     /* footer section */
-
-
 
   }
 
