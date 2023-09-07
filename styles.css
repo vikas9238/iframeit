@@ -606,9 +606,6 @@ footer .content .link-boxes{
   color: #fff;
   margin-top: 5px;
 }
-.footer-logo-link:hover{
-  color: yellow;
-}
 .input-details{
   display: flex;
   padding-block: 1rem;
