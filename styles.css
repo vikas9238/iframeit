@@ -3,10 +3,11 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: Lexend Deca, sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
-  --blue: rgb(1, 60, 253);
+  --blue: rgb(72, 115, 255);
 }
 
 /* loader */
@@ -107,7 +108,7 @@ a {
 }
 
 a:hover {
-  color: rgb(0, 60, 255);
+  color: rgb(72, 115, 255);
 }
 
 .list {
@@ -127,7 +128,7 @@ a:hover {
   padding: 10px 15px;
   font-weight: bold;
   color: white;
-  border: 1px solid rgb(1, 60, 253);
+  border: 1px solid rgb(72, 115, 255);
   border-radius: 8px;
 }
 
@@ -273,27 +274,13 @@ a:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact Section CSS ..... Started.... */
 .contactus-section {
-  background: linear-gradient(rgb(0, 0, 0, .8), rgb(0, 0, 0, .4)), url(image/become-a-vol.jpg);
+  background: linear-gradient(rgb(0, 0, 0, .8), rgb(0, 0, 0, .4)), url(image/contactus\ banner\ 1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-block: 7rem;
+  margin-top: 5.3rem;
 }
 
 .contactus-section-details {
@@ -301,7 +288,9 @@ a:hover {
 }
 
 .contactus-section-details h2 {
-  color: var(--blue);
+  /* color: var(--blue); */
+  color: white;
+  font-size: 3rem;
 }
 
 .contactus-section-details p {
@@ -422,3 +411,170 @@ form {
   border-radius: 30px;
   box-shadow: -5px 2px 4px 8px #42252c6d;
 }
+
+
+/* footer section  */
+
+footer{
+  background-color: rgb(72, 115, 255);
+  width: 100%;
+}
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.content .top .logo-details{
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons{
+  display: flex;
+}
+.content .top .media-icons a{
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2){
+  background: #1DA1F2;
+}
+.top .media-icons a:nth-child(2):hover{
+  color: #1DA1F2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+.top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+.top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5){
+  background: #FF0000;
+}
+.top .media-icons a:nth-child(5):hover{
+  color: #FF0000;
+  background: #fff;
+}
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+ .link-boxes{
+  width: 1250px;
+  padding-top: 2rem;
+  border-top: 2px solid white;
+  }
+.box .link_name{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.box li{
+  margin: 6px 0;
+  list-style: none;
+}
+.box li a{
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}
+.box li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+  color: yellow;
+}
+.link-boxes .input-box input{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #AFAFB6;
+  background: #140B5C;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+  background: #fff;
+  color: #140B5C;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+  opacity: 1;
+}
+footer .bottom-details{
+  width: 100%;
+  background: #0F0844;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.all-rights-reserved{
+  background-color: #0F0844;
+  padding-block: 2rem;
+  text-align: center;
+}
+.all-rights-reserved p{
+  color: #ffffff;
+}
+.all-rights-reserved a{
+  color: #FF0000;
+  font-weight: bold;
+}
+.all-rights-reserved:hover a{
+  color: rgb(208, 255, 0);
+}
+
+
+/* footer section  */

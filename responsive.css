@@ -127,5 +127,22 @@
 .center-btn{
     justify-content: center;
 }
-  
+  /* footer section */
+
+  @media (max-width: 490px){
+    .link-boxes{
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+    }
+    footer .content .top{
+      flex-direction: column;
+    }
+    .content .top .media-icons{
+      margin-top: 16px;
+    }
+  }
+
+  /* footer section */
   }
