@@ -494,6 +494,9 @@ footer .content .link-boxes{
   padding-top: 2rem;
   border-top: 2px solid white;
   }
+  .box{
+    width: 33%;
+  }
 .box .link_name{
   color: #fff;
   font-size: 1.5rem;
@@ -519,9 +522,13 @@ footer .content .link-boxes{
   text-decoration: underline;
   color: yellow;
 }
+.input-box p{
+  color: white;
+  width: 70%;
+}
 .link-boxes .input-box input{
   height: 40px;
-  width: 100%;
+  width: 50%;
   outline: none;
   border: 2px solid #AFAFB6;
   background: #140B5C;

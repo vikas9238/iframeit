@@ -2,7 +2,7 @@
 
   /* nav bar respo.... */
   .nav{
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
   }
   .list {
     position: fixed;
@@ -78,20 +78,13 @@
   .content-float-row1 img{
     background-color: rgba(255, 255, 255, 0);
   }
-
-
-
-
-
-
-
-
-
-
-
-
    /* contact us respo */
-
+  .box{
+    width: 100%;
+  }
+  .input-box p{
+    width: 100%;
+  }
    .contactus-section{
     display: none;
 }
@@ -144,7 +137,7 @@
     /* footer section */
 
 
-    
+
   }
 
   
