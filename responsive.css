@@ -2,7 +2,7 @@
 
   /* nav bar respo.... */
   .nav{
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 1rem 2rem 0rem 2rem;
   }
   .list {
     position: fixed;
@@ -86,6 +86,7 @@
 
   .services-content{
     flex-direction: column;
+    gap: 0px;
   }
   .service-offer-col{
     width: 80%;  
@@ -103,9 +104,10 @@
   /* technologies we work with section */
   .tech-img{
     flex-direction: row;
+    flex-wrap: wrap;
   }
   .tech-img-div{
-    width: 50%;
+    width: 40%;
   }
    /* contact us respo */
   .box{

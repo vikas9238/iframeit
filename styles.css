@@ -129,7 +129,8 @@ a:hover {
   font-weight: bold;
   color: white;
   border: 1px solid rgb(72, 115, 255);
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 1px -69px, rgba(0, 0, 0, 0.3) 0px 30px 5px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .button-align {
@@ -162,6 +163,7 @@ a:hover {
 .hero-section-row1 {
   margin-top: 85px;
   background-image: linear-gradient(0deg, rgba(25, 136, 247, 0) 1%, rgba(192, 195, 233, 0.34) 100%);
+  padding-top: 80px;
 }
 
 .hero-section-row2 {
@@ -218,12 +220,16 @@ a:hover {
 .image-decor2 {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 1px -69px, rgba(0, 0, 0, 0.3) 0px 30px 5px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 
 .image-decor1 {
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 1px -69px, rgba(0, 0, 0, 0.3) 0px 30px 5px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 
 /* why choose us section */
 .choose-us {
@@ -256,8 +262,9 @@ a:hover {
   margin-bottom: 10px;
   min-height: 350px;
   border-radius: 10px;
-  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.264);
+  /* box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.264); */
   transition: all .2s ease-in-out;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 1px -69px, rgba(0, 0, 0, 0.3) 0px 30px 5px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .chooseus-container-card:hover {
@@ -303,7 +310,9 @@ a:hover {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.601);
   border-radius: 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 1px -69px, rgba(0, 0, 0, 0.3) 0px 30px 5px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 .service-offer-col img{
   float: right;
   width: 380px;
@@ -328,11 +337,17 @@ a:hover {
 .tech-img{
   justify-content: space-between;
   padding-block: 2rem;
-  
+  gap :10px;
 }
 .tech-img-div{
   width: 23%;
+  border-radius: 50%;
+  padding:20px 0px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 1px -69px, rgba(0, 0, 0, 0.3) 0px 30px 5px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 .tech-img-div img{
   width: 100%;
   aspect-ratio: 3/2;
