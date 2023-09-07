@@ -273,7 +273,69 @@ a:hover {
   line-height: 1.2rem;
 }
 
-
+/* our Services Section */
+.service-offer-col{
+  padding-block: 2rem;
+  width: 48%;  
+}
+.service-offer-col h4{
+  padding-block: 1rem;
+  font-size: 1.8rem;
+}
+.service-offer-col p{
+  line-height: 1.5rem;
+  font-size: .9rem;
+}
+.services-content{
+  display: flex;
+  gap: 40px;
+  padding-block: 2rem;
+}
+.services-content p{  
+  font-size: 1rem;
+  background-color: #eee6e6;
+  margin-bottom: 15px;
+  padding: 15px 40px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.601);
+  border-radius: 4px;
+}
+.service-offer-col img{
+  float: right;
+  width: 380px;
+}
+/* tech we work with */
+.tech-work{
+  padding-block: 2rem;
+}
+.tech-work-info{
+  padding-block: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.tech-work-info p{
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  color: #0077B5;
+}
+.tech-img{
+  justify-content: space-between;
+  padding-block: 2rem;
+  
+}
+.tech-img-div{
+  width: 23%;
+}
+.tech-img-div img{
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  transition: all .4s ease-in;
+}
+.tech-img-div:hover img{
+  scale: 1.1;
+}
 /* Contact Section CSS ..... Started.... */
 .contactus-section {
   background: linear-gradient(rgb(0, 0, 0, .8), rgb(0, 0, 0, .4)), url(image/contactus\ banner\ 1.jpg);
@@ -538,6 +600,20 @@ footer .content .link-boxes{
   color: #fff;
   margin-top: 5px;
 }
+.footer-logo-link:hover{
+  color: yellow;
+}
+.input-details{
+  display: flex;
+  padding-block: 1rem;
+}
+.input-details li:nth-child(1){
+  width: 84%;
+}
+.input-details li:nth-child(2){
+  margin-left: -140px;
+  width: 55%;
+}
 .link-boxes .input-box input::placeholder{
   color: #AFAFB6;
   font-size: 16px;
@@ -555,17 +631,6 @@ footer .content .link-boxes{
 }
 .input-box input[type="button"]:hover{
   opacity: 1;
-}
-footer .bottom-details{
-  width: 100%;
-  background: #0F0844;
-}
-footer .bottom-details .bottom_text{
-  max-width: 1250px;
-  margin: auto;
-  padding: 20px 40px;
-  display: flex;
-  justify-content: space-between;
 }
 .all-rights-reserved{
   background-color: #0F0844;

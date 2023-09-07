@@ -20,7 +20,7 @@
   }
   .list.active {
     left: 0;
-    top:68px
+    top:44px
   }
   .list li {
     margin-top: 20px;
@@ -57,7 +57,8 @@
     flex-direction: column-reverse;
   }
   .hero-section-row1{
-    padding-top: 115px;
+    padding-top: 50px;
+    margin-top: 0px;
   }
   .hero-section-row2{
     padding-top: 10px;
@@ -77,6 +78,28 @@
   /* hero section ka 3rd sec img back ground remove */
   .content-float-row1 img{
     background-color: rgba(255, 255, 255, 0);
+  }
+
+  .chooseus-container-card{
+    width: 100%;
+  }
+
+  .services-content{
+    flex-direction: column;
+  }
+  .service-offer-col{
+    width: 80%;  
+  }
+  .services-content p{ 
+    text-align: center;
+  }
+  .service-offer-col img{
+    float: left;
+    padding-left: 57px;
+    width: 100%;
+  }
+  .content-float-row1 img {
+    width: 44%;
   }
    /* contact us respo */
   .box{
@@ -133,6 +156,17 @@
     }
     .content .top .media-icons{
       margin-top: 16px;
+    }
+
+    .input-details{
+      flex-direction: column;
+    }
+    .input-details li:nth-child(1){
+      width: 100%;
+    }
+    .input-details li:nth-child(2){
+      margin-left: 0px;
+      width: 100%;
     }
     /* footer section */
 
