@@ -52,13 +52,6 @@ body::-webkit-scrollbar-thumb{
   background-color: #000000;
   color: var(--blue);
 }
-
-/* body{
-  
-  background-image: url(image/LOGO6.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
 .container {
   margin-inline: auto;
   padding-inline: 20px;
@@ -82,7 +75,7 @@ body::-webkit-scrollbar-thumb{
 .nav {
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -161,7 +154,7 @@ a:hover {
 
 /* Hero section  */
 .hero-section-row1 {
-  margin-top: 85px;
+  /* margin-top: 85px; */
   background-image: linear-gradient(0deg, rgba(25, 136, 247, 0) 1%, rgba(192, 195, 233, 0.34) 100%);
   padding-top: 80px;
 }
