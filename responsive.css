@@ -93,8 +93,7 @@
    /* contact us respo */
 
    .contactus-section{
-
-    padding-block: 2rem;
+    display: none;
 }
 
 .contactus-section-details h2{
@@ -104,7 +103,9 @@
     padding-top: 0rem;
     font-size: 0.8rem;
 }
-
+.info-section {
+  margin-top: 3.7rem;
+}
 .info-details{
     flex-direction: column;
     text-align: center;
@@ -128,8 +129,6 @@
     justify-content: center;
 }
   /* footer section */
-
-  @media (max-width: 490px){
     .link-boxes{
       flex-direction: column;
       justify-content: space-between;
@@ -142,7 +141,10 @@
     .content .top .media-icons{
       margin-top: 16px;
     }
+    /* footer section */
+
+
+    
   }
 
-  /* footer section */
-  }
+  
