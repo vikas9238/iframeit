@@ -703,7 +703,7 @@ hr .hr-style{
   width: 45%;
 }
 .whatwedo-main-sec-col01 img{
-  width: 100%;
+  width: 80%;
 }
 .whatwedo-main-sec-col02{
   width: 45%;
@@ -758,7 +758,7 @@ width: 646px;
 }
 .our-mission-p{
   font-size: 3rem;
-  color: rgb(98, 98, 40);
+  color: rgb(0, 0, 0);
   padding-block: 1rem;
 }
 .ourmission-container-01{

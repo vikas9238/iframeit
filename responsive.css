@@ -199,6 +199,7 @@
   }
   .whatwedo-main-sec-col01{
     width: 100%;
+    margin-left: 77px;
   }
   .hero-section1 h1 {
     font-size: 2rem;
@@ -214,7 +215,7 @@
   width: 100%;
 }
 .ourmission-container-02{
-  width: 100%;
+  width: auto;
 }
 .our-team-container{
   flex-direction: column;
