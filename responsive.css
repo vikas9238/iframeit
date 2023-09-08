@@ -178,6 +178,53 @@
     }
     /* footer section */
 
+    /* what we do respo */
+    .animat-hero-img1, .animat-hero-img2 {
+      display: none;
+    }
+    .whatwedo-hero-sec {
+      display: none;
+    }
+    .whatwedo-main-sec-col02 p:nth-child(1){
+      text-align: center;
+    }
+    .whatwedo-main-sec-col02 {
+      width: 100%;
   }
+  .whatwedo-main-sec-details {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .whatwedo-main-sec-col01{
+    width: 100%;
+  }
+  .content-float-row1{
+    width: 66%;
+  }
+  .hero-section1 h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+.section img {
+  width: 300px;
+}
+.section{
+  height: 144px;
+}
+.ourmission-container-01{
+  width: 100%;
+}
+.ourmission-container-02{
+  width: 100%;
+}
+.our-team-container{
+  flex-direction: column;
+  padding-block: 70px;
+  background-image: none;
+}
+
+
+
+}
 
   
