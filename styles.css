@@ -660,3 +660,78 @@ footer .content .link-boxes{
 
 
 /* footer section  */
+
+/* what we do section */
+.whatwedo-sec{
+  background-image: linear-gradient(180deg, rgba(25, 136, 247, 0) 1%, rgba(192, 195, 233, 0.34) 100%);
+}
+.whatwedo-hero-sec{
+  background-image: url(image/blob\ \(1\).svg);
+  background-repeat: no-repeat;
+  background-size:550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  padding-top: 150px;
+}
+.whatwedo-hero-sec h1{
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+hr .hr-style{
+  border: 1px dashed red;
+}
+.whatwedo-main-sec-details{
+  gap:114px;
+}
+.whatwedo-main-sec{
+  padding-block: 2rem;
+}
+.whatwedo-main-sec-col01{
+  width: 45%;
+}
+.whatwedo-main-sec-col01 img{
+  width: 100%;
+}
+.whatwedo-main-sec-col02{
+  width: 45%;
+}
+.whatwedo-main-sec-col02 p:nth-child(1){
+  font-size:2rem;
+  padding-block: 1rem;
+  font-weight: bold;
+}
+.whatwedo-main-sec-col02 p:nth-child(2){
+  font-size: .9rem;
+  padding-block: 1rem;
+  color: rgba(0, 0, 0, 0.438);
+  line-height: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.how-we-work-p{
+  text-align: center;
+  padding-block: 2rem;
+  font-size: 3rem;
+  color: rgb(101, 101, 45);
+  font-weight: 0;
+}
+.section{
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: linear-gradient(180deg, rgba(25, 136, 247, 0) 1%, rgba(192, 195, 233, 0.34) 100%);
+}
+.section img{
+width: 646px;
+}
+.img-flip{
+  transform: scaleX(-1);
+}
+.hero-section-row2-decor{
+  background-image: linear-gradient(0deg, rgba(25, 136, 247, 0) 1%, rgba(192, 195, 233, 0.34) 100%);
+}
+/* what we do section */
