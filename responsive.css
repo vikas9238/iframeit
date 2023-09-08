@@ -79,7 +79,9 @@
   .content-float-row1 img{
     background-color: rgba(255, 255, 255, 0);
   }
-
+  .content-float-row1{
+    width: 100%;
+  }
   .chooseus-container-card{
     width: 100%;
   }
@@ -198,9 +200,6 @@
   .whatwedo-main-sec-col01{
     width: 100%;
   }
-  .content-float-row1{
-    width: 66%;
-  }
   .hero-section1 h1 {
     font-size: 2rem;
     text-align: center;
@@ -222,7 +221,9 @@
   padding-block: 70px;
   background-image: none;
 }
-
+.container-width{
+  width: 66%;
+}
 
 
 }
