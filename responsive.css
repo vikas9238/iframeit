@@ -4,6 +4,9 @@
   .nav{
     padding: .2rem 2rem 0rem 2rem;
   }
+  .nav img{
+    width: 130px;
+  }
   .list {
     position: fixed;
     left: -100%;
@@ -20,7 +23,7 @@
   }
   .list.active {
     left: 0;
-    top:66px
+    top:42px
   }
   .list li {
     margin-top: 20px;

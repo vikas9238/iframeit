@@ -69,7 +69,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .nav img {
-  width: 95px;
+  width: 190px;
 }
 
 .nav {
@@ -668,7 +668,7 @@ footer .content .link-boxes{
 .animat-hero-img1{
   position: absolute;
   top: 0;
-  padding-top: 125px;
+  padding-top: 100px;
 }
 .animat-hero-img2{
   position: absolute;
