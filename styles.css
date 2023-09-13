@@ -908,3 +908,25 @@ width: 646px;
   color: #fff;
 }
 /* what we do section */
+
+/* service section */
+.service-we-provide{
+  padding-block: 2rem;
+}
+.service-detail p{
+  text-align: center;
+  font-size: 3rem;  
+}
+.service-p-style p{
+  font-size: 1rem;
+  padding: 15px 5px;
+}
+.service-p-style{
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.service-p-style div{
+  width: 250px;
+}
+
+/* service section */
