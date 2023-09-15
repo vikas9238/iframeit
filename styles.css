@@ -502,8 +502,10 @@ form {
 /* footer section  */
 
 footer{
-  background-color: rgb(72, 115, 255);
+  /* background-color: rgb(72, 115, 255); */
   width: 100%;
+  background-image: url(image/Sprinkle.svg);
+  background-repeat: no-repeat;
 }
 footer .content{
   max-width: 1250px;
@@ -723,13 +725,13 @@ hr .hr-style{
   padding-block: 2rem;
 }
 .whatwedo-main-sec-col01{
-  width: 45%;
+  width: 50%;
 }
 .whatwedo-main-sec-col01 img{
-  width: 80%;
+  width: 100%;
 }
 .whatwedo-main-sec-col02{
-  width: 45%;
+  width: 50%;
 }
 .whatwedo-main-sec-col02 p:nth-child(1){
   font-size:2rem;
