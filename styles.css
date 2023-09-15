@@ -502,10 +502,10 @@ form {
 /* footer section  */
 
 footer{
-  /* background-color: rgb(72, 115, 255); */
+  background-color: rgb(72, 115, 255);
   width: 100%;
-  background-image: url(image/Sprinkle.svg);
-  background-repeat: no-repeat;
+  /* background-image: url(image/Sprinkle.svg); */
+  /* background-repeat: no-repeat; */
 }
 footer .content{
   max-width: 1250px;
