@@ -83,5 +83,5 @@ tl.from(".down-arrow",{
 })
 tl.to(".down-arrow",{
     y:40,
-    repeat:-1
+    repeat:1
 })
